@@ -49,7 +49,7 @@ int sum(int x, int y) // In this function Return type -> and With Arguments
 
 	// Integer value retured
 	printf("the value of x: %d\n\n", x); // yahan pe x ka value main () se copy hokar aaya hai
-	printf("the value of x: %d\n\n", y); // yahan pe y ka value main () se copy hokar aaya hai
+	printf("the value of y: %d\n\n", y); // yahan pe y ka value main () se copy hokar aaya hai
 	return c;
 }
 
@@ -61,7 +61,10 @@ int main()
 					  // ke andar copies hokar jayengi
 	printf("the value of a: %d\n", a);
 	// Function Called
-	int c = sum(a, b); // yahan pe jo value hoga wah original value hai
+	int c = sum(a, b); // yahan pe jo value hoga wah original value hai, jo ki main ke hi honge bas
+						// Humesha yaad rakhna hai ki, jab bhi apne Functin me Arguments pass kar rhe
+						// hon tab humare Arguments ki values [main()] ke andar, FUNCTION Call se
+						// pehle Declared hone chahiye, taaki Humara Function us Values ko use kar sake
 	printf("the value of a: %d\n", a);
 	printf("Sum of %d and %d : %d\n", a, b, c);
 	printf("the value of a: %d\n", a);
