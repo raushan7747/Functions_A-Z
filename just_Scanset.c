@@ -10,8 +10,8 @@ int main()
     // scanf("%d", array);
     // scanf("%[1,2,3,4,5,6,7,8,9,0]", array);
 
-    puts("Please Enter these selected alphabets first -> [a,g,l,p,u]");
-    scanf("%[a,g,l,p,u]", array);
+    puts("Please Enter these selected alphabets first -> [l,o,s,t]");
+    scanf("%[, ,l, o, s, t]", array);
     puts(array);
     // printf("%s", array);
 
