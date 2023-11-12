@@ -1,4 +1,12 @@
-# This is Raushan Kumar
+# C practice codes included Function Definitions
+
+## Only for revesion purpose
+
+<main>
+   <h2>
+    😈😈😈 This is Raushan, welcomes you 🙂
+   </h2>
+</main>
 
 :heart: :heart: :heart: :heart: :heart:
 
